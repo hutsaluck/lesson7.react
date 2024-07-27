@@ -1,15 +1,9 @@
 import React from 'react';
-import UsersComponent from "../components/users-component/UsersComponent";
-import PostsComponent from "../components/posts-component/PostsComponent";
-import CommentsComponent from "../components/comments-component/CommentsComponent";
+import HomeComponent from "../components/home-component/HomeComponent";
 
 const HomePage = () => {
     return (
-        <div>
-            <UsersComponent />
-            <PostsComponent />
-            <CommentsComponent />
-        </div>
+        <HomeComponent />
     );
 };
 
