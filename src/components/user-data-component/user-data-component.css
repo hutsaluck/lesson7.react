@@ -1,0 +1,21 @@
+.content-user {
+    padding: 20px 100px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content-user a {
+    font-weight: bold;
+}
+
+.content-user a:hover {
+    color: #ffffff;
+    text-shadow: #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px, #000 0 0 1px;
+}
+
+.content-user .wrap-additional-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}

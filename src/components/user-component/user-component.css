@@ -17,8 +17,15 @@
     cursor: pointer;
     text-transform: uppercase;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    width: 100%;
 }
 
 .user-item button:hover{
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.user-item .content-link{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
 }

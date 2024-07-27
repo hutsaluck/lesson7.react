@@ -13,9 +13,14 @@ const UserComponent: FC<IProps> = ({user}) => {
     return (
         <div className="user-item">
             <h3>{id}. {name}</h3>
-            <Link to={`${id}/posts`}>
-                <button>show posts of this user</button>
-            </Link>
+            <div className="content-link">
+                <Link to={`${id}`} state={user}>
+                    <button>user page</button>
+                </Link>
+                <Link to={`${id}/posts`}>
+                    <button>show posts of this user</button>
+                </Link>
+            </div>
         </div>
     );
 };
